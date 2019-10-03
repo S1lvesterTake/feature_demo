@@ -92,6 +92,17 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen>{
                           aspectRatio: 3/2,
                           autoPlay: true,
                           looping: true,
+                          overlay: RichText(
+                            text: TextSpan(
+                              text: 'credential',
+                              style: TextStyle(
+                                fontSize: 30,
+                                color: Colors.black.withOpacity(0.3),
+                                fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          )
                         );
                       });
                     },
@@ -113,6 +124,17 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen>{
                           aspectRatio: 3 / 2,
                           autoPlay: true,
                           looping: true,
+                          overlay: RichText(
+                            text: TextSpan(
+                              text: 'credential',
+                              style: TextStyle(
+                                fontSize: 40,
+                                color: Colors.black.withOpacity(0.3),
+                                fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          )
                         );
                       });
                     },
